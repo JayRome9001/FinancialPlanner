@@ -1,0 +1,8 @@
+# Clone into the examples repo
+git clone https://github.com/tellerhq/examples.git
+cd examples/python
+
+# Run the example application
+make run app_id=app_otrn97itgg4ki03ete000 env=sandbox cert=/path/to/cert.pem key=/path/to/private-key.pem
+
+
